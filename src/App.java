@@ -5,20 +5,20 @@ public class App {
         c.mostrarTipo(10.5); // double
         c.mostrarTipo(10.5f); // float
                                 
-        /*
-         * Conversor c = new Conversor();
-         * c.mostrarTipo(10); // int
-         * c.mostrarTipo(10.5); // double
-         * c.mostrarTipo(10.5f); // float
-         * 
-         * // Conversión implícita
-         * int a = 5;
-         * c.mostrarTipo(a); // int → exact match
-         * 
-         * // Conversión implícita a tipo mayor
-         * c.mostrarTipo(5); // puede ir a int o double → elige int (más específico)
-         */
-
+        /* 
+        Conversor c = new Conversor();
+        c.mostrarTipo(10); // int
+        c.mostrarTipo(10.5); // double
+        c.mostrarTipo(10.5f); // float
+         
+         // Conversión implícita
+         int a = 5;
+         c.mostrarTipo(a); // int → exact match
+         
+         // Conversión implícita a tipo mayor
+         c.mostrarTipo(5); // puede ir a int o double → elige int (más específico)
+        
+*/
         /*
          * Cuenta c1 = new Cuenta();
          * Cuenta c2 = new Cuenta();

@@ -1,8 +1,12 @@
 package Polimorfismo;
 
+import java.util.Stack;
+
 public class Main {
 
     public static void main(String[] args) {
+        
+
 
         Empleado e1 = new Gerente("Ana");
         Empleado e2 = new Programador("Luis");
@@ -20,8 +24,8 @@ public class Main {
             new Diseñador("Alan")
         };
 
-        for (Empleado e : empleados) {
-            e.trabajar();
+        for (Empleado hola : empleados) {
+            hola.trabajar();
         }
     }
 }
